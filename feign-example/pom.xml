@@ -12,5 +12,9 @@
     <artifactId>feign-example</artifactId>
 
     <packaging>pom</packaging>
-
+    <modules>
+        <module>udip-manager-feign</module>
+        <module>udip-node-feign</module>
+        <module>feign-api</module>
+    </modules>
 </project>
