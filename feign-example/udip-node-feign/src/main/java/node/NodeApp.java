@@ -9,9 +9,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  * @author: zscome
  * DateTime: 2019-06-20 20:22
  */
+@EnableFeignClients(basePackages={"node.feign"})
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients(basePackages={"node.feign"})
 public class NodeApp {
     public static void main(String[] rags) {
         SpringApplication.run(NodeApp.class, rags);

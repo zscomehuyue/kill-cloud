@@ -24,4 +24,5 @@ eureka:
     fetch-registry: true #要为true，才能获取到服务
     service-url:
       defaultZone: http://root:zscome@172.16.43.154:9090/eureka
+    enabled: true #该参数为true否则会找不到服务地址
 

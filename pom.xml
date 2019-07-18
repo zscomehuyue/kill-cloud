@@ -6,6 +6,7 @@
     <modules>
         <module>eureka-server</module>
         <module>feign-example</module>
+        <module>eureka-example</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -74,7 +75,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
     <dependencies>

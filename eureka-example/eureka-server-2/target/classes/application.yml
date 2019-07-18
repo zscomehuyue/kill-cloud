@@ -1,0 +1,35 @@
+security:
+  basic:
+    enabled: false
+  user:
+    name: root
+    password: zscome
+server:
+  port: 9092
+spring:
+  application:
+    name: eureka-server-cluster
+eureka:
+  user:
+    name: root
+    password: zscome
+  peer1: 172.16.43.154:9091
+  peer2: 172.16.43.154:9092
+  peer3: 172.16.43.154:9093
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      #      defaultZone: http://root:zscome@${spring.cloud.client.ipAddress}:${server.port}/eureka
+      defaultZone: "http://${eureka.user.name}:${eureka.user.password}@${eureka.peer1}/eureka/,\
+                        http://${eureka.user.name}:${eureka.user.password}@${eureka.peer2}/eureka/,\
+                        http://${eureka.user.name}:${eureka.user.password}@${eureka.peer3}/eureka/"
+
+logging:
+  level:
+    com:
+      netflix: debug

@@ -27,13 +27,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="eureka-server-1" />
+        <module name="eureka-server-2" />
+        <module name="eureka-server-3" />
         <module name="feign-api" />
         <module name="udip-manager-feign" />
         <module name="udip-node-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-example" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-1" target="1.8" />
+      <module name="eureka-server-2" target="1.8" />
+      <module name="eureka-server-3" target="1.8" />
       <module name="feign-api" target="1.8" />
       <module name="feign-example" target="1.8" />
       <module name="kill-cloud" target="1.8" />
@@ -43,6 +50,10 @@
   </component>
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-example/eureka-server-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-example/eureka-server-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-example/eureka-server-3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-example/feign-api" charset="UTF-8" />
@@ -189,7 +200,11 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-example/eureka-example.iml" filepath="$PROJECT_DIR$/eureka-example/eureka-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-example/eureka-server-1/eureka-server-1.iml" filepath="$PROJECT_DIR$/eureka-example/eureka-server-1/eureka-server-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-example/eureka-server-2/eureka-server-2.iml" filepath="$PROJECT_DIR$/eureka-example/eureka-server-2/eureka-server-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-example/eureka-server-3/eureka-server-3.iml" filepath="$PROJECT_DIR$/eureka-example/eureka-server-3/eureka-server-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-example/feign-api/feign-api.iml" filepath="$PROJECT_DIR$/feign-example/feign-api/feign-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-example/feign-example.iml" filepath="$PROJECT_DIR$/feign-example/feign-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/kill-cloud.iml" filepath="$PROJECT_DIR$/kill-cloud.iml" />
