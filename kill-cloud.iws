@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebfa1e65-eed9-4f8f-b803-92a8e168fe41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/event/event-example/event-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/EventApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/AlarmEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/DingTalkListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/MailListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/MsgEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/LoadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/SinkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/SourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/anno/ActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/AlarmSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/MailListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/config/AsyncConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/AlarmEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/AlarmListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/AlarmSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/DingTalkListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/MailListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/AlarmEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/AlarmSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/DingTalkObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/MailObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/SmsObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/ManagerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/ManagerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/NodeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/NodeApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-example/udip-manager-feign/src/main/java/manager/resource/ManagerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-manager-feign/src/main/java/manager/resource/ManagerResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kill-cloud.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kill-cloud.iws" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebfa1e65-eed9-4f8f-b803-92a8e168fe41" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/udip-manager-feign/target/" />
@@ -238,8 +191,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/NodeApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="60">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -312,7 +265,7 @@
         <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#600#601#0" expanded="true" />
@@ -756,7 +709,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564652013038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564652826500" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -949,12 +902,12 @@
       <workItem from="1563428567657" duration="969000" />
       <workItem from="1564542732838" duration="10430000" />
       <workItem from="1564624333151" duration="6846000" />
-      <workItem from="1564649798087" duration="2633000" />
+      <workItem from="1564649798087" duration="3014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31072000" />
+    <option name="totallyTimeSpent" value="31453000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -970,7 +923,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" order="0" visible="true" weight="0.18901454" />
       <window_info id="Structure" order="1" weight="0.20193861" />
@@ -982,7 +934,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48264462" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48264462" />
       <window_info anchor="bottom" id="EJB" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4264463" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -991,7 +943,7 @@
       <window_info anchor="bottom" id="CVS" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6247934" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6247934" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="13" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
@@ -1758,7 +1710,7 @@
     <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
@@ -1772,8 +1724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/NodeApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="60">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>

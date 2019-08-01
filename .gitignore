@@ -44,4 +44,5 @@ yarn-error.log*
 
 # ignire all dir's .DS_Store
 **/.DS_Store
+*.class 
 
