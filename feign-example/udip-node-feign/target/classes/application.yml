@@ -1,0 +1,28 @@
+
+security:
+  basic:
+    enabled: false
+  user:
+    name: root
+    password: zscome
+server:
+  port: 8082
+
+
+spring:
+  application:
+    name: udip-node
+
+eureka:
+  instance:
+    prefer-ip-address: true #避免服务使用hostname
+    hostname: 172.16.43.154
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port} #格式化服务地址
+
+  client:
+    register-with-eureka: true #要为true，才能获取到服务
+    fetch-registry: true #要为true，才能获取到服务
+    service-url:
+      defaultZone: http://root:zscome@172.16.43.154:9090/eureka
+    enabled: true #该参数为true否则会找不到服务地址
+

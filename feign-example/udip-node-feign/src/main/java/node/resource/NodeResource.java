@@ -1,6 +1,7 @@
 package node.resource;
 
 import api.NodeApi;
+import api.User;
 import node.feign.ManagerFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -23,5 +24,15 @@ public class NodeResource implements NodeApi {
 
     public String test(@PathVariable("id") Long id) {
         return managerFeignClient.getManager(id);
+    }
+
+    @Override
+    public User getUser(@RequestBody User user) {
+        return user;
+    }
+
+    @Override
+    public User test(User user) {
+        return user;
     }
 }
