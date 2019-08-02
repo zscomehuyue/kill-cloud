@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebfa1e65-eed9-4f8f-b803-92a8e168fe41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/ExampleAppWithLocalResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/SimpleGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/restclient/SampleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/AbstractRxMovieClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/RxMovieServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/InMemoryCacheProviderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/RecommendationServiceFallbackHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/RecommendationServiceResponseValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/Recommendations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/RxMovieTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/proxy/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/proxy/RxMovieProxyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/template/RxMovieTemplateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/transport/RxMovieTransportExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/server/ServerResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/resources/sample-client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/RxMovieClientTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/RxMovieServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/common/MovieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/common/RecommendationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/proxy/RxMovieProxyExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/template/RxMovieTemplateExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/test/java/com/netflix/ribbon/examples/rx/transport/RxMovieTransportExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-examples/udip-node-feign (1).iml" afterDir="false" />
+    <list default="true" id="a6f2ac61-07cf-46cd-982d-1ee93ac512fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/eureka-example/eureka-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-example/eureka-example.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-example/eureka-server-1/eureka-server-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-example/eureka-server-1/eureka-server-1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-example/eureka-server-2/eureka-server-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-example/eureka-server-2/eureka-server-2.iml" afterDir="false" />
@@ -42,28 +12,30 @@
       <change beforePath="$PROJECT_DIR$/feign-example/feign-api/feign-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/feign-api/feign-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feign-example/feign-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/feign-example.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feign-example/udip-manager-feign/udip-manager-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-manager-feign/udip-manager-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-node-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/udip-node-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-node-feign/udip-node-feign.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kill-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kill-cloud.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kill-cloud.iws" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/ribbon-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/ribbon-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/target/classes/application.yml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
-    <ignored path="$PROJECT_DIR$/udip-manager-feign/target/" />
-    <ignored path="$PROJECT_DIR$/udip-node-feign/target/" />
-    <ignored path="$PROJECT_DIR$/feign-api/target/" />
-    <ignored path="$PROJECT_DIR$/feign-example/target/" />
-    <ignored path="$PROJECT_DIR$/feign-example/feign-api/target/" />
     <ignored path="$PROJECT_DIR$/feign-example/udip-manager-feign/target/" />
     <ignored path="$PROJECT_DIR$/feign-example/udip-node-feign/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-example/target/" />
+    <ignored path="$PROJECT_DIR$/feign-example/feign-api/target/" />
+    <ignored path="$PROJECT_DIR$/feign-example/target/" />
     <ignored path="$PROJECT_DIR$/eureka-example/eureka-server-1/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-example/eureka-server-3/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-example/eureka-server-2/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-example/eureka-server-3/target/" />
     <ignored path="$PROJECT_DIR$/event/target/" />
     <ignored path="$PROJECT_DIR$/event/event-example/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-example/target/" />
     <ignored path="$PROJECT_DIR$/ribbon-examples/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,89 +198,122 @@
     <EjbView showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/SimpleGet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/ExampleAppWithLocalResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/server/ServerResources.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="241">
+              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3565#3566#0" expanded="true" />
+                <element signature="e#3652#3653#0" expanded="true" />
+                <element signature="e#3738#3739#0" expanded="true" />
+                <element signature="e#3821#3822#0" expanded="true" />
+                <element signature="e#3485#3486#0" expanded="true" />
+                <element signature="e#3556#3557#0" expanded="true" />
+                <element signature="e#3626#3627#0" expanded="true" />
+                <element signature="e#3693#3694#0" expanded="true" />
+                <element signature="e#5477#5478#0" expanded="true" />
+                <element signature="e#5537#5538#0" expanded="true" />
+                <element signature="e#5607#5608#0" expanded="true" />
+                <element signature="e#5667#5668#0" expanded="true" />
+                <element signature="e#5651#5652#0" expanded="true" />
+                <element signature="e#5703#5704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/protocol/http/client/HttpClientRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign-example/udip-manager-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign-example/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-examples/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-93">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="-2024">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5837#5838#0" expanded="true" />
+                <element signature="e#5904#5905#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/Observable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="1853" column="36" selection-start-line="1853" selection-start-column="36" selection-end-line="1853" selection-end-column="36" />
+              <folding>
+                <element signature="e#629134#629135#0" expanded="true" />
+                <element signature="e#629186#629187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/functions/Func1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/IRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+              <folding>
+                <element signature="e#5277#5286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/NodeApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#544#545#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -316,84 +321,27 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Observer</find>
-      <find>ribbon</find>
-      <find>jackson</find>
-      <find>jackson.core</find>
-      <find>com.fasterxml.jackson.core</find>
+      <find>connect</find>
+      <find>connect_time</find>
     </findStrings>
-    <replaceStrings>
-      <replace>AlarmListener</replace>
-      <replace>Listener</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SHOW_PACKAGES" value="false" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SORT_ALPHABETICALLY" value="false" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/com/text/SmsObserver.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/com/text/MailObserver.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/com/text/DingTalkObserver.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/com/text/Main.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/MailListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/Main.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Main.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/DingTalkObserver.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/DingTalkListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/SmsListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/AlarmEvent.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/AlarmSource.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/jdk/AlarmListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/pom.xml" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/EventApp.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/AlarmEvent.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/Sink.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/SinkAction.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/SourceAction.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/LoadAction.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/LoadAction.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/SinkAction.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/SourceAction.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/anno/ActionListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/DingTalkListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/SmsListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/Main.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/SinkService.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/SourceService.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/action/LoadService.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/MailListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/config/AsyncConfig.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/SmsListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/MailListener.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/AlarmSubject.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/Main.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/AlarmSubject.java" />
-        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Subject.java" />
-        <option value="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/User.java" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/feign-example/udip-manager-feign/src/main/java/manager/resource/ManagerResource.java" />
-        <option value="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/ManagerApi.java" />
+        <option value="$PROJECT_DIR$/ribbon-examples/src/main/resources/sample-client.properties" />
         <option value="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java" />
-        <option value="$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/NodeApi.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ribbon-examples/build.gradle" />
-        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" />
-        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/SimpleGet.java" />
-        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/ExampleAppWithLocalResource.java" />
-        <option value="$PROJECT_DIR$/ribbon-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java" />
       </list>
     </option>
   </component>
@@ -412,34 +360,14 @@
     <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
     <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="PerforceConfiguration">
     <option name="PORT" value="magic:1666" />
@@ -472,14 +400,12 @@
     <option name="width" value="1280" />
     <option name="height" value="720" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -490,7 +416,102 @@
             <path>
               <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-example" type="462c0819:PsiDirectoryNode" />
+              <item name="udip-node-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -526,6 +547,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -543,46 +574,13 @@
               <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="rxnetty-0.4.9.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="rxnetty-0.4.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="rxnetty-0.4.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -608,33 +606,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564713867419" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564737519930" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="test.observer" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ribbon-examples" />
-      <recent name="$PROJECT_DIR$/eureka-server/doc" />
-      <recent name="$PROJECT_DIR$/feign-example" />
-      <recent name="$PROJECT_DIR$/udip-manager-feign/src/main/resources" />
-      <recent name="$PROJECT_DIR$/eureka-server/src/main/resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/event/event-example/src/main/resources" />
-      <recent name="$PROJECT_DIR$/eureka-example/eureka-server-3/src" />
-      <recent name="$PROJECT_DIR$/eureka-example/eureka-server-2/src" />
-      <recent name="$PROJECT_DIR$/eureka-example/eureka-server-1/src" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -648,37 +621,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.URLConnectionLoadBalancer">
+  <component name="RunManager" selected="JUnit.LoadBalancingExample.dd">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.boot.jdk2.Main" />
-      <module name="event-example" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.boot.jdk2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URLConnectionLoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.loadbalancer.URLConnectionLoadBalancer" />
-      <module name="udip-node-feign" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.netflix.ribbon.examples.loadbalancer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -689,27 +634,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="kill-cloud" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="kill-cloud" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="LoadBalancingExample.dd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ribbon-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
+      <option name="METHOD_NAME" value="dd" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -719,28 +655,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
+    <configuration name="LoadBalancingExample.testGet2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ribbon-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.*" />
+          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="example.EurekaServer" />
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
+      <option name="METHOD_NAME" value="testGet2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="udip-manager-feign" />
+    <configuration name="LoadBalancingExample.testGet2 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ribbon-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="manager.*" />
+          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="manager.ManagerApp" />
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
+      <option name="METHOD_NAME" value="testGet2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadBalancingExample.testGet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ribbon-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
+      <option name="METHOD_NAME" value="testGet2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -760,11 +744,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLConnectionLoadBalancer" />
+        <item itemvalue="JUnit.LoadBalancingExample.dd" />
+        <item itemvalue="JUnit.LoadBalancingExample.testGet2 (2)" />
+        <item itemvalue="JUnit.LoadBalancingExample.testGet2 (1)" />
+        <item itemvalue="JUnit.LoadBalancingExample.testGet2" />
         <item itemvalue="Spring Boot.NodeApp" />
-        <item itemvalue="Spring Boot.ManagerApp" />
-        <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -781,36 +765,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
     <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebfa1e65-eed9-4f8f-b803-92a8e168fe41" name="Default Changelist" comment="" />
-      <created>1561026047501</created>
+      <changelist id="a6f2ac61-07cf-46cd-982d-1ee93ac512fa" name="Default Changelist" comment="" />
+      <created>1564729128883</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561026047501</updated>
-      <workItem from="1561026048930" duration="4405000" />
-      <workItem from="1561036791748" duration="703000" />
-      <workItem from="1561054209822" duration="293000" />
-      <workItem from="1563354789577" duration="2995000" />
-      <workItem from="1563357952985" duration="546000" />
-      <workItem from="1563412573445" duration="1252000" />
-      <workItem from="1563428567657" duration="969000" />
-      <workItem from="1564542732838" duration="10430000" />
-      <workItem from="1564624333151" duration="6846000" />
-      <workItem from="1564649798087" duration="3357000" />
-      <workItem from="1564711552935" duration="1939000" />
-      <workItem from="1564713514989" duration="644000" />
+      <updated>1564729128883</updated>
+      <workItem from="1564729130912" duration="6229000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 09m 05s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 09m 13s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 10m 11s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 13m 35s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 13m 57s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 14m 22s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 16m 48s.xml">
+      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2_(1) - 2019.08.02 at 16h 21m 10s.xml">
+      <configuration name="LoadBalancingExample.testGet2 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2_(2) - 2019.08.02 at 16h 32m 15s.xml">
+      <configuration name="LoadBalancingExample.testGet2 (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoadBalancingExample_testGet2_(2) - 2019.08.02 at 16h 33m 17s.xml">
+      <configuration name="LoadBalancingExample.testGet2 (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34379000" />
+    <option name="totallyTimeSpent" value="6229000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -828,87 +830,46 @@
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.2786753" />
-      <window_info id="Structure" order="1" weight="0.20193861" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Image Layers" />
+      <window_info id="Project" order="0" visible="true" weight="0.10904685" />
+      <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48264462" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5586777" />
       <window_info anchor="bottom" id="EJB" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4264463" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="CVS" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.2644628" />
-      <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20495868" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="13" weight="0.3289256" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3289256" />
+      <window_info anchor="right" id="Maven" weight="0.32956383" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
-      <window_info anchor="right" id="Hierarchy" order="2" weight="0.08642972" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Aspects" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.20355412" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Json Parser" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
-      <window_info anchor="right" id="Palette " order="10" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.2625202" />
-      <window_info id="Structure" order="1" weight="0.20193861" />
-      <window_info id="Web" order="2" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17024793" />
-      <window_info anchor="bottom" id="EJB" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4264463" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="CVS" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6247934" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="13" weight="0.3289256" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
-      <window_info anchor="right" id="Hierarchy" order="2" visible="true" weight="0.08642972" />
-      <window_info anchor="right" id="Aspects" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.35218093" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Json Parser" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
-      <window_info anchor="right" id="Palette " order="10" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -969,616 +930,254 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>sourceType</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Action.class.isAssignableFrom(sourceType)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>AlarmEvent.class.isAssignableFrom(eventType)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/test.boot.jdk2.AlarmSubject">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>test.boot.jdk2.AlarmSubject</OriginalElement>
-          <nodes>
-            <node x="0.0" y="297.0">test.boot.jdk2.AlarmSubject</node>
-            <node x="211.0" y="297.0">test.boot.jdk2.SmsListener</node>
-            <node x="152.125" y="398.0">test.boot.jdk2.Main</node>
-            <node x="498.99999999999994" y="297.0">test.boot.jdk2.MailListener</node>
-            <node x="89.92499999999998" y="0.0">java.util.Observable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="test.boot.jdk2.AlarmSubject" target="java.util.Observable">
-              <point x="-47.75" y="-25.5" />
-              <point x="47.75" y="267.0" />
-              <point x="167.02499999999995" y="267.0" />
-              <point x="-51.400000000000034" y="113.5" />
-            </edge>
-            <edge source="test.boot.jdk2.MailListener" target="java.util.Observable">
-              <point x="0.0" y="-25.5" />
-              <point x="633.0" y="267.0" />
-              <point x="321.225" y="267.0" />
-              <point x="102.80000000000001" y="113.5" />
-            </edge>
-            <edge source="test.boot.jdk2.Main" target="test.boot.jdk2.AlarmSubject">
-              <point x="-23.0" y="-25.5" />
-              <point x="221.125" y="368.0" />
-              <point x="143.25" y="368.0" />
-              <point x="47.75" y="25.5" />
-            </edge>
-            <edge source="test.boot.jdk2.SmsListener" target="java.util.Observable">
-              <point x="0.0" y="-25.5" />
-              <point x="345.0" y="277.0" />
-              <point x="269.82500000000005" y="277.0" />
-              <point x="51.400000000000034" y="113.5" />
-            </edge>
-            <edge source="test.boot.jdk2.Main" target="test.boot.jdk2.MailListener">
-              <point x="69.0" y="-25.5" />
-              <point x="313.125" y="378.0" />
-              <point x="633.0" y="378.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="java.util.Observable" target="java.util.Observable">
-              <point x="-102.79999999999998" y="113.5" />
-              <point x="115.625" y="247.0" />
-              <point x="69.92500000000001" y="247.0" />
-              <point x="69.92500000000001" y="113.5" />
-              <point x="-128.5" y="-0.0" />
-            </edge>
-            <edge source="test.boot.jdk2.Main" target="test.boot.jdk2.SmsListener">
-              <point x="23.0" y="-25.5" />
-              <point x="267.125" y="368.0" />
-              <point x="345.0" y="368.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="183.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/observer/AlarmEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.lang.Override">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.Override</OriginalElement>
-          <nodes>
-            <node x="277.0" y="268.0">test.observer.Main</node>
-            <node x="253.5" y="0.0">test.observer.Observer</node>
-            <node x="0.0" y="134.0">test.observer.SmsObserver</node>
-            <node x="251.0" y="101.0">test.observer.AlarmSubject</node>
-            <node x="507.0" y="134.0">test.observer.MailObserver</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="test.observer.Main" target="test.observer.SmsObserver">
-              <point x="-61.33333333333337" y="-25.5" />
-              <point x="307.66666666666663" y="243.0" />
-              <point x="115.5" y="243.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="test.observer.SmsObserver" target="test.observer.Observer">
-              <point x="0.0" y="-25.5" />
-              <point x="115.5" y="76.0" />
-              <point x="282.375" y="76.0" />
-              <point x="-86.625" y="25.5" />
-            </edge>
-            <edge source="test.observer.MailObserver" target="test.observer.Observer">
-              <point x="0.0" y="-25.5" />
-              <point x="622.5" y="76.0" />
-              <point x="455.625" y="76.0" />
-              <point x="86.625" y="25.5" />
-            </edge>
-            <edge source="test.observer.Main" target="test.observer.AlarmSubject">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="test.observer.AlarmSubject" target="test.observer.Observer">
-              <point x="-59.0" y="-58.5" />
-              <point x="310.0" y="76.0" />
-              <point x="340.125" y="76.0" />
-              <point x="-28.875" y="25.5" />
-            </edge>
-            <edge source="test.observer.Main" target="test.observer.MailObserver">
-              <point x="61.333333333333314" y="-25.5" />
-              <point x="430.3333333333333" y="243.0" />
-              <point x="622.5" y="243.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="369.0" y="160.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/observer/AlarmSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/observer/SmsObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/boot/jdk2/AlarmSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/example/EurekaServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/feign-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/GetMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/proxy/MovieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="221">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/NodeApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="286">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-manager-feign/src/main/java/manager/ManagerApp.java">
+    <entry file="file://$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="204">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/SimpleGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/observables/BlockingObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
           <folding>
-            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#9960#9961#0" expanded="true" />
+            <element signature="e#10007#10008#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-manager-feign/src/main/java/manager/feign/NodeFeignClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/functions/Action0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="102">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-manager-feign/src/main/java/manager/resource/ManagerResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#822#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/feign-api/src/main/java/api/ManagerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/feign/ManagerFeignClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/functions/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="12" />
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.0.27.Final/netty-codec-http-4.0.27.Final.jar!/io/netty/handler/codec/http/HttpResponseStatus.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="-310">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/NodeApp.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.0.27.Final/netty-codec-http-4.0.27.Final-sources.jar!/io/netty/handler/codec/http/HttpResponseStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="217">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/protocol/http/client/HttpClientResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="5" selection-start-column="3" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/DefaultLoadBalancerRetryHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar!/rx/functions/Func1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/ServerOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="259" column="53" selection-start-line="259" selection-start-column="38" selection-end-line="259" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/net/HttpURLConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="544" column="18" selection-start-line="544" selection-start-column="18" selection-end-line="544" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.0.9/rxjava-1.0.9.jar!/rx/observables/BlockingObservable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-          <folding>
-            <element signature="e#2454#2455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.0.9/rxjava-1.0.9-sources.jar!/rx/observables/BlockingObservable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.22.Final/netty-buffer-4.1.22.Final.jar!/io/netty/buffer/ByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar!/io/reactivex/netty/channel/StringTransformer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#843#0" expanded="true" />
+            <element signature="e#3497#3498#0" expanded="true" />
+            <element signature="e#3526#3527#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="60" column="9" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/AbstractRxMovieClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/client/RxClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5389#5390#0" expanded="true" />
-            <element signature="e#5425#5426#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="193">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.22.Final/netty-buffer-4.1.22.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/RxMovieServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/metrics/MetricEventsPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/channel/StringTransformer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/metrics/MetricsEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/InMemoryCacheProviderFactory.java">
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/resources/sample-client.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/RxMovieTransformer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-transport/2.2.5/ribbon-transport-2.2.5-sources.jar!/com/netflix/ribbon/transport/netty/http/LoadBalancingHttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="181">
+          <caret line="285" column="140" selection-start-line="285" selection-start-column="127" selection-end-line="285" selection-end-column="140" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/common/RecommendationServiceResponseValidator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-transport/2.2.5/ribbon-transport-2.2.5-sources.jar!/com/netflix/ribbon/transport/netty/RibbonTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/rx/template/RxMovieTemplateExample.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/IClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="119">
+          <caret line="23" column="89" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/DefaultClientConfigImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="130" column="58" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/NodeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <folding>
+            <element signature="e#5277#5286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/IRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/protocol/http/client/HttpClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2024">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="e#5837#5838#0" expanded="true" />
+            <element signature="e#5904#5905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/functions/Func1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="1853" column="36" selection-start-line="1853" selection-start-column="36" selection-end-line="1853" selection-end-column="36" />
+          <folding>
+            <element signature="e#629134#629135#0" expanded="true" />
+            <element signature="e#629186#629187#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="241">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3565#3566#0" expanded="true" />
+            <element signature="e#3652#3653#0" expanded="true" />
+            <element signature="e#3738#3739#0" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+            <element signature="e#3485#3486#0" expanded="true" />
+            <element signature="e#3556#3557#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3693#3694#0" expanded="true" />
+            <element signature="e#5477#5478#0" expanded="true" />
+            <element signature="e#5537#5538#0" expanded="true" />
+            <element signature="e#5607#5608#0" expanded="true" />
+            <element signature="e#5667#5668#0" expanded="true" />
+            <element signature="e#5651#5652#0" expanded="true" />
+            <element signature="e#5703#5704#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/SimpleGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/ExampleAppWithLocalResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-manager-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/server/ServerResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="380" column="24" lean-forward="true" selection-start-line="380" selection-start-column="24" selection-end-line="380" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>eureka-example</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

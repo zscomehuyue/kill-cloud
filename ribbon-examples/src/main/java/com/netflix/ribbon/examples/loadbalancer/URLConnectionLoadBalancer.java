@@ -5,6 +5,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
+import com.alibaba.fastjson.JSON;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import rx.Observable;
 
 import com.google.common.collect.Lists;
@@ -36,11 +38,13 @@ public class URLConnectionLoadBalancer {
     public String call(final String path) throws Exception {
         return LoadBalancerCommand.<String>builder()
                 .withLoadBalancer(loadBalancer)
+                .withRetryHandler(retryHandler)
                 .build()
                 .submit(server -> {
                     URL url;
                     try {
                         url = new URL("http://" + server.getHost() + ":" + server.getPort() + path);
+                        System.out.println("url= " + url.toString());
                         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                         return Observable.just(conn.getResponseMessage());
                     } catch (Exception e) {
@@ -56,14 +60,18 @@ public class URLConnectionLoadBalancer {
     }
 
     public static void main(String[] args) throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+
         URLConnectionLoadBalancer urlLoadBalancer = new URLConnectionLoadBalancer(Lists.newArrayList(
-                new Server("www.google.com", 80),
-                new Server("www.linkedin.com", 80),
-                new Server("www.yahoo.com", 80)));
+                new Server("jd.com", 80),
+                new Server("www.baidu.com", 80)));
+
         for (int i = 0; i < 6; i++) {
             System.out.println(urlLoadBalancer.call("/"));
         }
-        System.out.println("=== Load balancer stats ===");
-        System.out.println(urlLoadBalancer.getLoadBalancerStats());
+
+        String json = JSON.toJSONString(urlLoadBalancer.getLoadBalancerStats(), true);
+        System.out.println("=== Load balancer stats ===" + json);
+
     }
 }
