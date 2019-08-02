@@ -8,6 +8,7 @@
         <module>feign-example</module>
         <module>eureka-example</module>
         <module>event</module>
+        <module>ribbon-examples</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
