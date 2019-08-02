@@ -148,7 +148,7 @@ public class LoadBalancingExample {
     }
 
     @Test
-    public void dd() {
+    public void rxJavaTest() {
         Observable.from(new String[]{"a", "b"}).subscribe(new Observer<String>() {
             @Override
             public void onCompleted() {
