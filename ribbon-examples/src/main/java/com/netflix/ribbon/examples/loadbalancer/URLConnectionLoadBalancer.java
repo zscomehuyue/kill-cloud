@@ -4,6 +4,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
+import java.util.Set;
 
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -70,7 +71,17 @@ public class URLConnectionLoadBalancer {
             System.out.println(urlLoadBalancer.call("/"));
         }
 
-        String json = JSON.toJSONString(urlLoadBalancer.getLoadBalancerStats(), true);
+        LoadBalancerStats loadBalancerStats = urlLoadBalancer.getLoadBalancerStats();
+        Set<String> availableZones = loadBalancerStats.getAvailableZones();
+        availableZones.forEach(s -> {
+            System.out.println("zones:" + s);
+        });
+        loadBalancerStats.getServerStats().entrySet().forEach(en -> {
+            System.out.println("stats=" + en.getKey() + "=" + en.getValue().getResponseTime10thPercentile());
+        });
+
+        //FIXME 看看统计的实现，后期可以应用到自己的里面；
+        String json = JSON.toJSONString(loadBalancerStats, true);
         System.out.println("=== Load balancer stats ===" + json);
 
     }

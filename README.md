@@ -1,3 +1,4 @@
+
 ## Spring-boot打成可执行jar的方法
 
 + 项目继承 **spring-boot-starter-parent**
@@ -33,3 +34,13 @@
  mvn clean package  spring-boot:repackage
  
 ```
+## gradle create pom 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
+
