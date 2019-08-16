@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f2ac61-07cf-46cd-982d-1ee93ac512fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/LBBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/LoadBalancerBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/stat/ServerStatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-example/udip-manager-feign/udip-manager-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-manager-feign/udip-manager-feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/target/classes/META-INF/udip-node-feign.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/target/test-classes/META-INF/udip-node-feign.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-example/udip-node-feign/udip-node-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-example/udip-node-feign/udip-node-feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kill-cloud.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kill-cloud.iws" beforeDir="false" afterPath="$PROJECT_DIR$/kill-cloud.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-examples/ribbon-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/ribbon-examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -184,51 +194,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="79" column="105" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="105" />
+            <state relative-caret-position="199">
+              <caret line="71" column="25" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ServerStats.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="530" column="74" lean-forward="true" selection-start-line="530" selection-start-column="74" selection-end-line="530" selection-end-column="74" />
+            <state relative-caret-position="-1677">
+              <caret line="83" column="48" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="48" />
               <folding>
-                <element signature="e#14316#14317#0" expanded="true" />
-                <element signature="e#14377#14378#0" expanded="true" />
-                <element signature="e#17955#17956#0" expanded="true" />
-                <element signature="e#18016#18017#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2820#3070#0" expanded="true" />
+                <element signature="e#3069#3070#0" expanded="true" />
+                <element signature="e#3108#3307#0" expanded="true" />
+                <element signature="e#3306#3307#0" expanded="true" />
+                <element signature="e#10865#10866#0" expanded="true" />
+                <element signature="e#10934#10935#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1-sources.jar!/com/netflix/servo/annotations/Monitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>connect</find>
       <find>connect_time</find>
+      <find>Stopwatch</find>
+      <find>loadBalancerKey</find>
+      <find>lb</find>
+      <find>loadBalancerContext</find>
+      <find>mock</find>
+      <find>testBuildWithArchaiusProperties</find>
+      <find>ribbon</find>
+      <find>Configuration</find>
+      <find>Keys.</find>
+      <find>PrimeConnectionsURI</find>
+      <find>ConfigurationManager</find>
+      <find>Monitor</find>
+      <find>responseTimeDist</find>
+      <find>dataDist</find>
+      <find>publisher</find>
+      <find>bufferSize</find>
+      <find>155690308257867</find>
     </findStrings>
+    <replaceStrings>
+      <replace>IClientConfigKey.Keys.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HierarchyBrowserManager">
-    <option name="SHOW_PACKAGES" value="false" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="SORT_ALPHABETICALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -238,7 +267,12 @@
         <option value="$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ribbon-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/LBBuilderTest.java" />
+        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/LoadBalancerBuilderTest.java" />
         <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java" />
+        <option value="$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Main.java" />
+        <option value="$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/stat/ServerStatTest.java" />
       </list>
     </option>
   </component>
@@ -257,9 +291,26 @@
     <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
     <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ribbon-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ribbon-examples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -292,18 +343,19 @@
     <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
     <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,7 +365,130 @@
             </path>
             <path>
               <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="event-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="event-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="event-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="event-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="event-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="event-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+              <item name="stat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="netflix-statistics-0.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="netflix-statistics-0.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -336,6 +511,50 @@
             <path>
               <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="servo-core-0.10.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="servo-core-0.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="servo-core-0.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servo" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="netflix-statistics-0.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="netflix-statistics-0.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -358,11 +577,48 @@
               <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
               <item name="netflix" type="462c0819:PsiDirectoryNode" />
               <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.servo:servo-core:0.10.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.servo:servo-core:0.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="servo-core-0.10.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.servo:servo-core:0.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="servo-core-0.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.servo:servo-core:0.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="servo-core-0.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servo" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -388,8 +644,16 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565346250950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565950800699" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.netflix.ribbon.examples.loadbalancer" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -403,20 +667,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.URLConnectionLoadBalancer">
+  <component name="RunManager" selected="JUnit.ServerStatTest.stat">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLConnectionLoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.loadbalancer.URLConnectionLoadBalancer" />
-      <module name="ribbon-examples" />
+    <configuration name="ServerStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netflix.loadbalancer.ServerStats" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.netflix.ribbon.examples.loadbalancer.*" />
+          <option name="PATTERN" value="com.netflix.loadbalancer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,16 +693,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadBalancingExample.dd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LBBuilderTest.testBuildWithArchaiusProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ribbon-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
+          <option name="PATTERN" value="com.netflix.ribbon.examples.loadbalancer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
-      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.loadbalancer" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.loadbalancer.LBBuilderTest" />
+      <option name="METHOD_NAME" value="testBuildWithArchaiusProperties" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadBalancerBuilderTest.dd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ribbon-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netflix.ribbon.examples.loadbalancer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.loadbalancer" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.loadbalancer.LoadBalancerBuilderTest" />
       <option name="METHOD_NAME" value="dd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -451,17 +735,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadBalancingExample.testGet2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoadBalancerBuilderTest.fllownredirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ribbon-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
+          <option name="PATTERN" value="com.netflix.ribbon.examples.loadbalancer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
-      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
-      <option name="METHOD_NAME" value="testGet2" />
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.loadbalancer" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.loadbalancer.LoadBalancerBuilderTest" />
+      <option name="METHOD_NAME" value="fllownredirect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -472,38 +756,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadBalancingExample.testGet2 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServerStatTest.stat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ribbon-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
+          <option name="PATTERN" value="com.netflix.ribbon.examples.loadbalancer.stat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
-      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
-      <option name="METHOD_NAME" value="testGet2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoadBalancingExample.testGet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ribbon-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.netflix.ribbon.examples.netty.http.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.netty.http" />
-      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.netty.http.LoadBalancingExample" />
-      <option name="METHOD_NAME" value="testGet2" />
+      <option name="PACKAGE_NAME" value="com.netflix.ribbon.examples.loadbalancer.stat" />
+      <option name="MAIN_CLASS_NAME" value="com.netflix.ribbon.examples.loadbalancer.stat.ServerStatTest" />
+      <option name="METHOD_NAME" value="stat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,11 +790,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLConnectionLoadBalancer" />
-        <item itemvalue="JUnit.LoadBalancingExample.dd" />
-        <item itemvalue="JUnit.LoadBalancingExample.testGet2 (2)" />
-        <item itemvalue="JUnit.LoadBalancingExample.testGet2 (1)" />
-        <item itemvalue="JUnit.LoadBalancingExample.testGet2" />
+        <item itemvalue="JUnit.ServerStatTest.stat" />
+        <item itemvalue="Application.ServerStats" />
+        <item itemvalue="JUnit.LoadBalancerBuilderTest.fllownredirect" />
+        <item itemvalue="JUnit.LoadBalancerBuilderTest.dd" />
+        <item itemvalue="JUnit.LBBuilderTest.testBuildWithArchaiusProperties" />
       </list>
     </recent_temporary>
   </component>
@@ -563,43 +826,48 @@
       <workItem from="1565058709395" duration="160000" />
       <workItem from="1565317495915" duration="853000" />
       <workItem from="1565329370269" duration="9473000" />
+      <workItem from="1565397235045" duration="10000" />
+      <workItem from="1565663597227" duration="10974000" />
+      <workItem from="1565775960885" duration="3284000" />
+      <workItem from="1565836203651" duration="896000" />
+      <workItem from="1565918423556" duration="8989000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 09m 13s.xml">
-      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    <history-entry file="LoadBalancerBuilderTest_dd - 2019.08.14 at 18h 19m 54s.xml">
+      <configuration name="LoadBalancerBuilderTest.dd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 10m 11s.xml">
-      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    <history-entry file="LoadBalancerBuilderTest_dd - 2019.08.14 at 18h 23m 32s.xml">
+      <configuration name="LoadBalancerBuilderTest.dd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 13m 35s.xml">
-      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    <history-entry file="LoadBalancerBuilderTest_fllownredirect - 2019.08.15 at 21h 02m 53s.xml">
+      <configuration name="LoadBalancerBuilderTest.fllownredirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 13m 57s.xml">
-      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    <history-entry file="LoadBalancerBuilderTest_fllownredirect - 2019.08.15 at 21h 03m 59s.xml">
+      <configuration name="LoadBalancerBuilderTest.fllownredirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 14m 22s.xml">
-      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    <history-entry file="LoadBalancerBuilderTest_fllownredirect - 2019.08.15 at 21h 05m 50s.xml">
+      <configuration name="LoadBalancerBuilderTest.fllownredirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2 - 2019.08.02 at 16h 16m 48s.xml">
-      <configuration name="LoadBalancingExample.testGet2" configurationId="JUnit" />
+    <history-entry file="LoadBalancerBuilderTest_fllownredirect - 2019.08.15 at 21h 08m 14s.xml">
+      <configuration name="LoadBalancerBuilderTest.fllownredirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2_(1) - 2019.08.02 at 16h 21m 10s.xml">
-      <configuration name="LoadBalancingExample.testGet2 (1)" configurationId="JUnit" />
+    <history-entry file="ServerStatTest_stat - 2019.08.16 at 17h 59m 54s.xml">
+      <configuration name="ServerStatTest.stat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2_(2) - 2019.08.02 at 16h 32m 15s.xml">
-      <configuration name="LoadBalancingExample.testGet2 (2)" configurationId="JUnit" />
+    <history-entry file="ServerStatTest_stat - 2019.08.16 at 18h 02m 08s.xml">
+      <configuration name="ServerStatTest.stat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_testGet2_(2) - 2019.08.02 at 16h 33m 17s.xml">
-      <configuration name="LoadBalancingExample.testGet2 (2)" configurationId="JUnit" />
+    <history-entry file="ServerStatTest_stat - 2019.08.16 at 18h 16m 04s.xml">
+      <configuration name="ServerStatTest.stat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoadBalancingExample_dd - 2019.08.02 at 17h 37m 16s.xml">
-      <configuration name="LoadBalancingExample.dd" configurationId="JUnit" />
+    <history-entry file="ServerStatTest_stat - 2019.08.16 at 18h 16m 52s.xml">
+      <configuration name="ServerStatTest.stat" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18311000" />
+    <option name="totallyTimeSpent" value="42464000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -614,9 +882,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.16801292" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.18174475" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -625,15 +894,15 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1570248" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32561985" />
       <window_info anchor="bottom" id="EJB" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36528927" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="CVS" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3289256" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.16859505" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -644,9 +913,9 @@
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="Aspects" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.4394184" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -712,243 +981,299 @@
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java</url>
+          <line>475</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ss</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpURLConnection</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lb</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getLoadBalancer()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/resources/sample-client.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.7.2/eureka-client-1.7.2.jar!/com/netflix/discovery/DiscoveryManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="102">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-transport/2.2.5/ribbon-transport-2.2.5-sources.jar!/com/netflix/ribbon/transport/netty/http/LoadBalancingHttpClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.7.2/eureka-client-1.7.2-sources.jar!/com/netflix/discovery/DiscoveryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="83" column="56" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-easymock/1.6.2/powermock-api-easymock-1.6.2-sources.jar!/org/powermock/api/easymock/PowerMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="1598" column="36" selection-start-line="1598" selection-start-column="36" selection-end-line="1598" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar!/org/apache/commons/configuration/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.8/commons-configuration-1.8-sources.jar!/org/apache/commons/configuration/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="218" column="15" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.5/ribbon-eureka-2.2.5.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledNIWSServerList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.5/ribbon-eureka-2.2.5-sources.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledNIWSServerList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
-          <caret line="285" column="140" selection-start-line="285" selection-start-column="127" selection-end-line="285" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-transport/2.2.5/ribbon-transport-2.2.5-sources.jar!/com/netflix/ribbon/transport/netty/RibbonTransport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/resource/NodeResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/IClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="89" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/DefaultClientConfigImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="130" column="58" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/netty/http/LoadBalancingExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
           <folding>
-            <element signature="e#5751#5752#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
+            <element signature="e#2417#2418#0" expanded="true" />
+            <element signature="e#2643#2644#0" expanded="true" />
+            <element signature="e#2711#2712#0" expanded="true" />
+            <element signature="e#5767#5768#0" expanded="true" />
             <element signature="e#5817#5818#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/io/reactivex/netty/protocol/http/client/HttpClientRequest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneAffinityServerListFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="e#5837#5838#0" expanded="true" />
-            <element signature="e#5904#5905#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="719">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/functions/Func1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/IRule.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/annotations/VisibleForTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-example/udip-node-feign/src/main/java/node/NodeApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="27" />
           <folding>
-            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/ExampleAppWithLocalResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneAvoidanceRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="1819">
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneAffinityServerListFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.jar!/com/netflix/config/ConfigurationManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="188">
+          <caret line="110" column="60" lean-forward="true" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneAffinityPredicate.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6-sources.jar!/com/netflix/config/ConfigurationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="-2350">
+          <caret line="191" column="40" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/WeightedResponseTimeRule.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="257">
+          <caret line="73" column="4" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <element signature="e#4402#4411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ServerStatusChangeListener.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/DefaultClientConfigImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="141">
+          <caret line="389" column="81" selection-start-line="389" selection-start-column="56" selection-end-line="389" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11792#11793#0" expanded="true" />
+            <element signature="e#11834#11835#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ServerListUpdater.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/IClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="1564">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#6326#6327#0" expanded="true" />
+            <element signature="e#6363#6364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="293" column="22" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="22" />
+        <state relative-caret-position="651">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding>
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/Server.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="1955">
+          <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/RetryRule.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/net/HttpURLConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="4437">
+          <caret line="291" column="42" selection-start-line="291" selection-start-column="27" selection-end-line="291" selection-end-column="42" />
+          <folding>
+            <element signature="e#11563#11564#0" expanded="true" />
+            <element signature="e#11587#11588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java">
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/LBBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="2397">
+          <caret line="172" column="22" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/NoOpPing.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="2278">
+          <caret line="170" column="36" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/ExecutionContext.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5-sources.jar!/com/netflix/client/config/IClientConfigKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/ExecutionInfo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="7446">
+          <caret line="486" column="37" selection-start-line="486" selection-start-column="37" selection-end-line="486" selection-end-column="37" />
+          <folding>
+            <element signature="e#4324#4325#0" expanded="true" />
+            <element signature="e#4353#4354#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/ExecutionListener.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.7.2/eureka-client-1.7.2-sources.jar!/com/netflix/discovery/DiscoveryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="19550">
+          <caret line="1243" column="43" selection-start-line="1243" selection-start-column="43" selection-end-line="1243" selection-end-column="43" />
+          <folding>
+            <element signature="e#72884#72885#0" expanded="true" />
+            <element signature="e#72919#72920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38029">
+          <caret line="2237" column="32" selection-start-line="2237" selection-start-column="28" selection-end-line="2237" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/LoadBalancerBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,146 +1284,308 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="295">
-            <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/observables/BlockingObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="186">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#6906#6907#0" expanded="true" />
+            <element signature="e#6954#6955#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="9984" column="30" selection-start-line="9984" selection-start-column="30" selection-end-line="9984" selection-end-column="30" />
+        <state relative-caret-position="-36">
+          <caret line="6641" selection-start-line="6641" selection-end-line="6641" />
           <folding>
+            <element signature="e#9873#9874#0" expanded="true" />
+            <element signature="e#9917#9918#0" expanded="true" />
+            <element signature="e#9996#9997#0" expanded="true" />
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#358208#358209#0" expanded="true" />
+            <element signature="e#358247#358248#0" expanded="true" />
             <element signature="e#629134#629135#0" expanded="true" />
             <element signature="e#629186#629187#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar!/com/netflix/stats/distribution/DataDistribution.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="254">
+          <caret line="263" column="17" selection-start-line="263" selection-start-column="17" selection-end-line="263" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5439#5440#0" expanded="true" />
+            <element signature="e#5478#5479#0" expanded="true" />
+            <element signature="e#10055#14152#0" expanded="true" />
+            <element signature="e#10619#13928#0" expanded="true" />
+            <element signature="e#13927#13928#0" expanded="true" />
+            <element signature="e#14151#14152#0" expanded="true" />
+            <element signature="e#14322#15568#0" expanded="true" />
+            <element signature="e#15567#15568#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/HistogramMBean.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="346">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/Histogram.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneSnapshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DistributionMBean.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1-sources.jar!/com/netflix/servo/MonitorRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="255">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/Distribution.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1-sources.jar!/com/netflix/servo/Metric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataDistributionMBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataAccumulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="79" column="105" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar!/com/netflix/servo/annotations/Monitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="136">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1-sources.jar!/com/netflix/servo/annotations/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
+        <state relative-caret-position="193">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar!/com/netflix/util/MeasuredRate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1-sources.jar!/com/netflix/util/MeasuredRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.netflix.stats.distribution">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.netflix.stats.distribution</OriginalElement>
+          <nodes>
+            <node x="" y="">com.netflix.stats.distribution.HistogramMBean</node>
+            <node x="" y="">com.netflix.stats.distribution.DataBuffer</node>
+            <node x="" y="">com.netflix.stats.distribution.DistributionMBean</node>
+            <node x="" y="">com.netflix.stats.distribution.Histogram</node>
+            <node x="" y="">com.netflix.stats.distribution.DataCollector</node>
+            <node x="" y="">com.netflix.stats.distribution.Distribution</node>
+            <node x="" y="">com.netflix.stats.distribution.DataDistribution</node>
+            <node x="" y="">com.netflix.stats.distribution.DataDistributionMBean</node>
+            <node x="" y="">com.netflix.stats.distribution.DataPublisher</node>
+            <node x="" y="">com.netflix.stats.distribution.DataAccumulator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="335.5" y="207.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ServerStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="530" column="74" lean-forward="true" selection-start-line="530" selection-start-column="74" selection-end-line="530" selection-end-column="74" />
+        <state relative-caret-position="169">
+          <caret line="516" column="43" lean-forward="true" selection-start-line="516" selection-start-column="43" selection-end-line="516" selection-end-column="43" />
           <folding>
+            <element signature="e#4942#4943#0" expanded="true" />
+            <element signature="e#4986#4987#0" expanded="true" />
+            <element signature="e#6917#6918#0" expanded="true" />
+            <element signature="e#6964#6965#0" expanded="true" />
             <element signature="e#14316#14317#0" expanded="true" />
             <element signature="e#14377#14378#0" expanded="true" />
+            <element signature="e#16023#16024#0" expanded="true" />
+            <element signature="e#16087#16088#0" expanded="true" />
             <element signature="e#17955#17956#0" expanded="true" />
             <element signature="e#18016#18017#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="e#4483#4484#0" expanded="true" />
+            <element signature="e#4517#4518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/stat/ServerStatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/event-example/src/main/java/test/observer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="140" column="30" lean-forward="true" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+          <folding>
+            <element signature="e#2569#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/com/netflix/stats/distribution/DataBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-examples/src/main/java/com/netflix/ribbon/examples/loadbalancer/URLConnectionLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1677">
+          <caret line="83" column="48" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2820#3070#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#3108#3307#0" expanded="true" />
+            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="e#10865#10866#0" expanded="true" />
+            <element signature="e#10934#10935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kill-cloud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

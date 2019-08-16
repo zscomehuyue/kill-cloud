@@ -125,7 +125,16 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-easymock-release-full</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <version>3.2</version>
+        </dependency>
         <dependency>
             <groupId>spring-cloud</groupId>
             <artifactId>feign-api</artifactId>

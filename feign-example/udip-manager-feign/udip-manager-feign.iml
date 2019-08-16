@@ -214,7 +214,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="feign-api" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>

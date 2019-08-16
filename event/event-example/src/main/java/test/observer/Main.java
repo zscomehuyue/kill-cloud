@@ -11,7 +11,7 @@ public class Main {
         subject.addListener(new SmsObserver());
         subject.addListener(new DingTalkObserver());
         subject.addListener(new MailObserver());
-        subject.triggerMsg(new AlarmEvent());
+//        subject.triggerMsg(new AlarmEvent());
 
     }
 }
