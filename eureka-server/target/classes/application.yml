@@ -12,7 +12,7 @@ spring:
 eureka:
   instance:
     prefer-ip-address: true
-    hostname: 172.16.154.195
+#    hostname: 172.16.154.195
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
 
   client:
@@ -22,7 +22,8 @@ eureka:
       defaultZone: http://root:zscome@${spring.cloud.client.ipAddress}:${server.port}/eureka
   server:
     # 关闭自我包含功能，这样服务kill后，就不会存在服务列表了；可以避免客户端再次连接该服务；
-    enable-self-preservation: true
+    # false时，当kill时，客户端应该不能连接，不进行自我保护？？
+    enable-self-preservation: false
     #单机模式
     renewal-percent-threshold: 0
 

@@ -21,6 +21,7 @@ package com.netflix.ribbon.examples.restclient;
 import java.net.URI;
 
 import com.netflix.client.ClientFactory;
+import com.netflix.client.IClient;
 import com.netflix.client.http.HttpRequest;
 import com.netflix.client.http.HttpResponse;
 import com.netflix.config.ConfigurationManager;
@@ -28,20 +29,34 @@ import com.netflix.loadbalancer.ZoneAwareLoadBalancer;
 import com.netflix.niws.client.http.RestClient;
 
 public class SampleApp {
+
+    //FIXME iclient使用方式
+    //FIXME 使用了命令行的方式；LoadBalancerCommand
+    //FIXME executeWithLoadBalancer create LoadBalancerCommand
 	public static void main(String[] args) throws Exception {
+	    //FIXME 通过配置文件读取相关设置
+        //FIXME DefaultClientConfigImpl 使用到了ConfigurationManager相关读取的配置
+
         ConfigurationManager.loadPropertiesFromResources("sample-client.properties");  // 1
-        System.out.println(ConfigurationManager.getConfigInstance().getProperty("sample-client.ribbon.listOfServers"));
+
+//        System.err.println(ConfigurationManager.getConfigInstance().getProperty("sample-client.ribbon.listOfServers"));
+
+        //FIXME 如何区分不同的client？通过那个key判断的啊？ 通过配置文件的ClientClassName 来区分的；
+        //FIXME DefaultClientConfigImpl getDefaultClientClassname 默认返回restclient对象
         RestClient client = (RestClient) ClientFactory.getNamedClient("sample-client");  // 2
+
         HttpRequest request = HttpRequest.newBuilder().uri(new URI("/")).build(); // 3
         for (int i = 0; i < 20; i++)  {
         	HttpResponse response = client.executeWithLoadBalancer(request); // 4
         	System.out.println("Status code for " + response.getRequestedURI() + "  :" + response.getStatus());
         }
-        @SuppressWarnings("rawtypes")
+
         ZoneAwareLoadBalancer lb = (ZoneAwareLoadBalancer) client.getLoadBalancer();
-        System.out.println(lb.getLoadBalancerStats());
+        System.err.println(lb.getLoadBalancerStats());
+
         ConfigurationManager.getConfigInstance().setProperty(
-        		"sample-client.ribbon.listOfServers", "www.linkedin.com:80,www.google.com:80"); // 5
+        		"sample-client.ribbon.listOfServers", "www.linkedin.com:80,www.jd.com:80"); // 5
+
         System.out.println("changing servers ...");
         Thread.sleep(3000); // 6
         for (int i = 0; i < 20; i++)  {

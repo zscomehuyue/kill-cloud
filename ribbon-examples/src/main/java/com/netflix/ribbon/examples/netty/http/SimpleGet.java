@@ -12,9 +12,13 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 public class SimpleGet {
+
+    //FIXME 第3种使用方式
     public static void main(String[] args) throws Exception {
+
+        //FIXME 底层通讯使用的是httpclient ？还是netty？
         LoadBalancingHttpClient<ByteBuf, ByteBuf> client = RibbonTransport.newHttpClient();
-        HttpClientRequest<ByteBuf> request = HttpClientRequest.createGet("http://www.google.com/");
+        HttpClientRequest<ByteBuf> request = HttpClientRequest.createGet("http://www.jd.com/");
         final CountDownLatch latch = new CountDownLatch(1);
         client.submit(request)
             .toBlocking()

@@ -44,5 +44,13 @@ yarn-error.log*
 
 # ignire all dir's .DS_Store
 **/.DS_Store
-*.class 
+test.sql
+data.sql
+dumpsql.sh 
+importsql.sh 
 
+*.iws 
+*.ipr
+*.iml 
+
+/target

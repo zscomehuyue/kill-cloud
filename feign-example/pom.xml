@@ -16,5 +16,24 @@
         <module>udip-manager-feign</module>
         <module>udip-node-feign</module>
         <module>feign-api</module>
+        <module>feign</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.8.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.8.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.8.11</version>
+        </dependency>
+    </dependencies>
 </project>
